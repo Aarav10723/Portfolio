@@ -1,6 +1,7 @@
 # Projects for Class
 
-This page will be filled in as the semester progresses.
+*(Placeholder — projects will be added throughout the semester.)*
 
 - Project 1: Coming soon
 - Project 2: Coming soon
+- Project 3: Coming soon
