@@ -5,5 +5,6 @@ Hi! I’m Aarav Shroff, a Computer Science & Data Science major at UNC Charlotte
 
 ## Projects
 - [Projects for class](Projects/class-projects.md)
+
 ## Blog
 - [Intro Blog Post](blog/intro-post.md)
