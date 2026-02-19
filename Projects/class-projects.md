@@ -1,8 +1,6 @@
 # Projects for Class
 
-*(Placeholder — projects will be added throughout the semester.)*
-
-## 📊 Project 1 — Exploratory Data Analysis: Netflix Catalog
+## Project 1 — Exploratory Data Analysis: Netflix Catalog
 
 **Research Question**  
 How has Netflix’s content library evolved over time in terms of content type, genres, and geographic distribution?
