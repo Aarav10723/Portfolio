@@ -15,7 +15,7 @@ Netflix Movies and TV Shows dataset (Kaggle — Shivam Bansal)
 Python, pandas, matplotlib, Jupyter Notebook
 
 ### Deliverables
-[View Code & Notebook](https://github.com/Aarav10723/ds2-project1-netflix)  
+[View Code & Notebook](https://github.com/Aarav10723/ds2-project1-netflix/blob/main/project1_netflix_eda.ipynb)  
 [Read Full Report (PDF)](https://github.com/Aarav10723/ds2-project1-netflix/blob/main/2301%20-%20Project%201.pdf)
 
 
