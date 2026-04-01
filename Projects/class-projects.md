@@ -18,5 +18,14 @@ Python, pandas, matplotlib, Jupyter Notebook
 [View Code & Report](https://aarav10723.github.io/ds2-project1-netflix/)
 
 
-- Project 2: Coming soon
+## Project 2 — Predicting Student Success Using Machine Learning
+
+**Introduction: Why this Matters**
+Every semester, some students struggle and fall behind, but often it’s not obvious who needs help until it’s too late. What if we could predict student performance early using data? In this project, I explored whether machine learning models can predict whether a student will pass or fail a course based on factors like study time, attendance, and past performance. The goal is to understand which factors matter most and how accurately we can identify at-risk students. This matters because early predictions could help schools provide support before students fall behind.
+
+**Research Question**
+Can we predict whether a student will pass or fail using behavioral and academic data? More importantly which factors have the biggest impact on student success?
+
+
+
 - Project 3: Coming soon
