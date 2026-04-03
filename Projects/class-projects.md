@@ -41,6 +41,6 @@ This project showed me that machine learning is not just about accuracy. It’s 
 The most important insight is that early indicators already exist. Schools don’t need new data, they just need better ways to use it. With models like this, educators could: Identify struggling students early, Provide targeted support & Improve overall success rates. Machine learning can effectively predict student outcomes and highlight key factors like past performance and attendance. While no model is perfect, these tools can help shift education from reactive to proactive.
 
 *Code/Technical Report**
-[Uploading project2_student_performance_ml.html…]()
+[project2_student_performance_ml.html](https://github.com/user-attachments/files/26455455/project2_student_performance_ml.html)
 
-- Project 3: Coming soon
+## Project 3: Coming soon
