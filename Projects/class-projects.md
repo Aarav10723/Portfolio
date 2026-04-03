@@ -43,4 +43,4 @@ The most important insight is that early indicators already exist. Schools donâ€
 **Code/Technical Report**
 [project2_student_performance_ml.html](https://github.com/user-attachments/files/26455455/project2_student_performance_ml.html)
 
-## Project 3: Coming soon
+- Project 3: Coming soon
