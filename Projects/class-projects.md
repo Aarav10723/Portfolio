@@ -30,9 +30,9 @@ Every semester, some students struggle and fall behind, but often it’s not obv
 Can we predict whether a student will pass or fail using behavioral and academic data? More importantly which factors have the biggest impact on student success?
 
 **Key Findings**
-1. Previous grades matter the most - Students with strong past grades were far more likely to pass.
-2. Study time helps, but only to a point - More study time improved performance, but after a certain level, gains slowed.
-3. Absences are a strong negative factor - Students with higher absences were much more likely to fail.
+1. Students don’t start from scratch, their academic history strongly predicts their future performance. Those who entered the course with higher prior grades consistently continued to succeed, while those with weaker academic foundations struggled to catch up. This suggests that performance is not just about current effort, but also about momentum built over time.
+2. At first, increasing study time leads to noticeable improvements in performance. However, after a certain point, the benefits begin to level off, indicating that simply studying more does not guarantee better results. This highlights the importance of efficient studying rather than just longer hours.
+3. Attendance emerged as one of the most critical factors. Students with frequent absences were significantly more likely to fail, suggesting that missing class creates a gap that is difficult to recover from, regardless of other factors like study time.
 
 **What I learned**
 This project showed me that machine learning is not just about accuracy. It’s about understanding why predictions happen. Even simple models can reveal important patterns, but comparing multiple models gives a much clearer picture.
