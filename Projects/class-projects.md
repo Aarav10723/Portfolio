@@ -107,10 +107,5 @@ By leveraging machine learning, we successfully created a system that groups and
  - Libraries Used: Pandas, NumPy, Scikit-Learn, Matplotlib, Seaborn.
  - AI Usage: Google Gemini was utilized as a structure and content reviser to adapt technical reports into this layman portfolio post format. All code execution, feature engineering, and base analyses were conducted independently.
 
-
-
-
-
-
-
+**Technical Report:** [2302 Final Project Technical Report_.pdf](https://github.com/user-attachments/files/27293565/2302.Final.Project.Technical.Report_.pdf)
 
