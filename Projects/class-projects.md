@@ -72,6 +72,43 @@ Because we gave the AI so much complex information, we first used a statistical 
 When we analyzed what the model was prioritizing, the results were fascinating. The model revealed that a stock's long-term historical risk and return profile represents the primary difference among equities (accounting for 60% of the variance), while its recent short-term price momentum operates as a distinct, secondary factor (20% variance).
 
 <img width="244" height="323" alt="image" src="https://github.com/user-attachments/assets/d47308ba-c5df-45e7-86e5-4d3b2edddb74" />
+Caption: A breakdown of the PCA feature loadings, showing how the first principal component (PC1) is dominated by long-term risk metrics, while the second (PC2) is driven by short-term momentum.
+
+**Grouping the Market:**
+With the data streamlined, we used a K-Means clustering algorithm. Simply put, the model looks at all these indicators and organizes the companies into distinct clusters where they act similarly.
+To ensure we weren't just guessing how many clusters there should be, we utilized the "Elbow Method," a mathematical approach that calculates the optimal number of clusters that balances model complexity with tight, cohesive groupings.
+
+<img width="455" height="356" alt="image" src="https://github.com/user-attachments/assets/6a0b6430-0d7f-4b03-89c4-ea932fe0232d" />
+Caption: The Elbow Method used to identify the mathematically optimal number of clusters for our 2-Dimensional PCA model.
+
+Once the optimal number of clusters was found, our algorithm successfully mapped out the market, separating the 243 stocks into clear, distinct groups based entirely on their behavioral data.
+
+<img width="497" height="488" alt="image" src="https://github.com/user-attachments/assets/6b51ea3e-2f1b-40dd-977c-700be57ab1a6" />
+Caption: The final K-Means model visualizing the distinct clusters of stocks mapped across the two primary behavioral dimensions.
+
+**Testing the Recommendations:**
+To see if our system actually worked, we evaluated it by simulating a stock acquisition. We selected "Cluster 5" because the stocks inside it balanced both long-term stability and short-term growth. We picked one primary stock from this group (AAOI) and recommended the others to act alongside it.
+The results were a success. Over our evaluation period, the recommended stocks successfully moved in a highly correlated manner, proving that our algorithm could accurately predict grouped behavior.
+
+<img width="496" height="360" alt="image" src="https://github.com/user-attachments/assets/3705bff9-23c1-4c7d-87a0-2ccd5723336d" />
+Caption: Evaluating the recommendation system. The recommended stocks from Cluster 5 clearly mirror the behavioral movements of the primary selected stock. (Note: AAOI had just announced a new Hyperscaler datacenter contract, thus the jump in returns in this week).
+
+**Societal Impact (Benefits, Risks, and Ethics):**
+When we bridge the gap between machine learning and personal finance, there are massive societal implications to consider.
+ - The Benefits: Tools like this democratize finance. Historically, only high-level hedge funds had the resources to map out complex market behaviors. By building an automated recommendation system, everyday investors can use data driven insights to structure their portfolios rather than relying on guesswork or paying high fees for basic advice.
+ - The Potential Harms: There is a severe ethical danger in framing AI groupings as definitive "recommendations." Algorithms like ours rely entirely on past historical data. It operates under the assumption that past clustering dictates future alignment. It cannot predict sudden real-world shifts (ex- AAOI announcement), economic crashes, or unexpected company scandals.
+ - Societal Implications: If users over-rely on an AI system without understanding that it is just a mathematical model, not a magic crystal ball, they could face massive financial risk. Transparency is absolutely essential. We must ensure that society views AI in finance as an exploratory guide to help make informed decisions, never as a guarantee of financial safety.
+
+**Conclusion:**
+By leveraging machine learning, we successfully created a system that groups and recommends stocks based on their behavioral similarities. While it isn't a tool designed to guarantee a profit, it successfully proves that the underlying mathematical patterns of the stock market can be isolated and mapped. With clear transparency about its limitations, this kind of system can be an incredibly powerful tool for the modern investor.
+
+**References & AI Transperency:**
+ - Data Source: Aroussi, R. yfinance: https://github.com/ranaroussi/yfinance
+ - Libraries Used: Pandas, NumPy, Scikit-Learn, Matplotlib, Seaborn.
+ - AI Usage: Google Gemini was utilized as a structure and content reviser to adapt technical reports into this layman portfolio post format. All code execution, feature engineering, and base analyses were conducted independently.
+
+
+
 
 
 
