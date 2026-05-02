@@ -52,4 +52,28 @@ The most important insight is that early indicators already exist. Schools donâ€
 **Technical Report**
 [Project 2 Technical Report.pdf](https://github.com/user-attachments/files/26486301/Project.2.Technical.Report.pdf)
 
-- Project 3: Coming soon
+
+## Final Project - Finding Patterns in the Chaos: Building an AI Stock Recommendation System
+
+**Introduction**
+For the everyday investor, the stock market can feel like a chaotic ocean of numbers, flashing screens, and unpredictable swings. One of the biggest challenges investors face is identifying which stocks actually behave similarly to one another. Many people want to build portfolios where their investments move in a coordinated, predictable direction, but finding those hidden connections manually across thousands of companies is nearly impossible.
+For our project, we set out to answer a specific question: Can we use an unsupervised machine learning model to automatically group stocks that behave alike, and use those groups to create a recommendation system? 
+Our goal was to take the guesswork out of finding related stocks, giving investors a clearer, data driven lens through which to view the market.
+
+**The Data & Feature Engineering**
+To understand how stocks move, we built an automated pipeline to gather 10 years of daily price data for 243 different NASDAQ companies. However, simply looking at a stock's daily closing price isn't enough to understand its true "personality." We engineered specific indicators to capture a fuller picture of how these companies operate:
+ - Long-Term Reliability & Risk: We measured historical average performance, volatility, worst-case historical drops (Max Drawdown), and risk-adjusted returns (Sharpe Ratio).
+ - Short-Term Momentum: We tracked recent 30-day and 90-day streaks to see how the stock was behaving right now.
+ - Market Alignment: We measured how closely each stock mirrored the broader market (the S&P 500).
+Because these metrics exist on wildly different scales, we standardized the data so that every feature carried an equal weight when fed into the model.
+
+**Cutting through the Noise**
+Because we gave the AI so much complex information, we first used a statistical technique called Principal Component Analysis (PCA) to simplify the dataset. This mathematically strips away the random "noise" of the market while keeping the core behavioral signals intact.
+When we analyzed what the model was prioritizing, the results were fascinating. The model revealed that a stock's long-term historical risk and return profile represents the primary difference among equities (accounting for 60% of the variance), while its recent short-term price momentum operates as a distinct, secondary factor (20% variance).
+
+<img width="244" height="323" alt="image" src="https://github.com/user-attachments/assets/d47308ba-c5df-45e7-86e5-4d3b2edddb74" />
+
+
+
+
+
