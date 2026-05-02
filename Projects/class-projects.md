@@ -109,3 +109,4 @@ By leveraging machine learning, we successfully created a system that groups and
 
 **Technical Report:** [2302 Final Project Technical Report_.pdf](https://github.com/user-attachments/files/27293565/2302.Final.Project.Technical.Report_.pdf)
 
+**Project Poster:** [dtsc poster template.pdf](https://github.com/user-attachments/files/27293610/dtsc.poster.template.pdf)
