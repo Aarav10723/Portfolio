@@ -72,7 +72,7 @@ Because we gave the AI so much complex information, we first used a statistical 
 When we analyzed what the model was prioritizing, the results were fascinating. The model revealed that a stock's long-term historical risk and return profile represents the primary difference among equities (accounting for 60% of the variance), while its recent short-term price momentum operates as a distinct, secondary factor (20% variance).
 
 <img width="244" height="323" alt="image" src="https://github.com/user-attachments/assets/d47308ba-c5df-45e7-86e5-4d3b2edddb74" />
-Caption: A breakdown of the PCA feature loadings, showing how the first principal component (PC1) is dominated by long-term risk metrics, while the second (PC2) is driven by short-term momentum.
+**Caption:** A breakdown of the PCA feature loadings, showing how the first principal component (PC1) is dominated by long-term risk metrics, while the second (PC2) is driven by short-term momentum.
 
 
 **Grouping the Market:**
@@ -80,13 +80,13 @@ With the data streamlined, we used a K-Means clustering algorithm. Simply put, t
 To ensure we weren't just guessing how many clusters there should be, we utilized the "Elbow Method," a mathematical approach that calculates the optimal number of clusters that balances model complexity with tight, cohesive groupings.
 
 <img width="455" height="356" alt="image" src="https://github.com/user-attachments/assets/6a0b6430-0d7f-4b03-89c4-ea932fe0232d" />
-Caption: The Elbow Method used to identify the mathematically optimal number of clusters for our 2-Dimensional PCA model.
+**Caption:** The Elbow Method used to identify the mathematically optimal number of clusters for our 2-Dimensional PCA model.
 
 
 Once the optimal number of clusters was found, our algorithm successfully mapped out the market, separating the 243 stocks into clear, distinct groups based entirely on their behavioral data.
 
 <img width="497" height="488" alt="image" src="https://github.com/user-attachments/assets/6b51ea3e-2f1b-40dd-977c-700be57ab1a6" />
-Caption: The final K-Means model visualizing the distinct clusters of stocks mapped across the two primary behavioral dimensions.
+**Caption:** The final K-Means model visualizing the distinct clusters of stocks mapped across the two primary behavioral dimensions.
 
 
 **Testing the Recommendations:**
@@ -94,7 +94,7 @@ To see if our system actually worked, we evaluated it by simulating a stock acqu
 The results were a success. Over our evaluation period, the recommended stocks successfully moved in a highly correlated manner, proving that our algorithm could accurately predict grouped behavior.
 
 <img width="496" height="360" alt="image" src="https://github.com/user-attachments/assets/3705bff9-23c1-4c7d-87a0-2ccd5723336d" />
-Caption: Evaluating the recommendation system. The recommended stocks from Cluster 5 clearly mirror the behavioral movements of the primary selected stock. (Note: AAOI had just announced a new Hyperscaler datacenter contract, thus the jump in returns in this week).
+**Caption:** Evaluating the recommendation system. The recommended stocks from Cluster 5 clearly mirror the behavioral movements of the primary selected stock. (Note: AAOI had just announced a new Hyperscaler datacenter contract, thus the jump in returns in this week).
 
 
 **Societal Impact (Benefits, Risks, and Ethics):**
